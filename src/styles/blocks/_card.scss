@@ -37,57 +37,30 @@
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 16px;
+  }
 
-    &-reviews {
-      font-size: 10px;
-      line-height: 14px;
-      color: $main-text-color;
-    }
+  &__reviews {
+    font-size: 10px;
+    line-height: 14px;
+    color: $main-text-color;
   }
 
   &__price {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
-
-    &-text {
-      font-size: 12px;
-      line-height: 18px;
-      color: $secondary-text-color;
-    }
-
-    &-number {
-      font-size: 16px;
-      line-height: 18px;
-      font-weight: 700;
-      color: $main-text-color;
-    }
   }
-}
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  font-size: 14px;
-  width: 100%;
-  line-height: 16px;
-  background-color: $blue-accent;
-  color: $main-bg-color;
-  text-transform: uppercase;
-  border-radius: 5px;
-  font-weight: 700;
-  padding: 12px 0;
-  margin-top: 16px;
-  height: 40px;
-  border: 1px solid $blue-accent;
-  text-decoration: none;
-}
+  &__text {
+    font-size: 12px;
+    line-height: 18px;
+    color: $secondary-text-color;
+  }
 
-.button:hover {
-  color: $blue-accent;
-  background-color: $main-bg-color;
-  padding: 11px 0;
-  border: 1px solid $blue-accent;
+  &__number {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: $main-text-color;
+  }
 }
